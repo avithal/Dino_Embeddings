@@ -27,7 +27,7 @@ MODEL_NAME = "facebook/dinov2-base"
 
 
 # folder containing images you want to embed
-IMAGE_FOLDER = r"D:\Dataset\images_to_embedd"  # put your images here
+IMAGE_FOLDER = "images_to_embedd"  # put your images here
 
 BATCH_SIZE = 8
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
